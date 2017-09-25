@@ -12,7 +12,7 @@ public class PriorutyRun implements Runnable
     public static void main(String[] args) {
         PriorutyRun t1=new PriorutyRun();
         PriorutyRun t2=new PriorutyRun();
-        PriorutyRun t3=new PriorutyRun();
+        PriorutyRun t3=new PriorutyRun();//git
 
         Thread t4=new Thread(t1);
         Thread t5=new Thread(t2);
